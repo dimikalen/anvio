@@ -61,7 +61,7 @@ class MaxBin2:
     def __init__(self, run=run, progress=progress):
         self.run = run
         self.progress = progress
-        self.program_name = 'run_MaxBin.pl'
+        self.program_name = 'MaxBin'
 
         utils.is_program_exists(self.program_name)
 
